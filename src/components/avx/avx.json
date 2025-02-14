@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_avx_avxes",
+  "info": {
+    "displayName": "avx",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "avx": {
+      "type": "enumeration",
+      "enum": [
+        "avx",
+        "abc"
+      ]
+    }
+  }
+}
