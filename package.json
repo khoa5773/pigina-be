@@ -11,13 +11,17 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.9.0",
-    "@strapi/plugin-users-permissions": "5.9.0",
-    "@strapi/strapi": "5.9.0",
+    "@_sh/strapi-plugin-ckeditor": "^5.0.1",
+    "@sklinet/strapi-plugin-tinymce": "^1.1.6",
+    "@strapi/plugin-cloud": "5.10.2",
+    "@strapi/plugin-documentation": "^5.10.2",
+    "@strapi/plugin-users-permissions": "5.10.2",
+    "@strapi/strapi": "5.10.2",
     "mysql2": "3.9.8",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
+    "strapi-plugin-slugify": "^2.3.8",
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
