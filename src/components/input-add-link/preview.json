@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_input_add_link_previews",
+  "info": {
+    "displayName": "preview",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}

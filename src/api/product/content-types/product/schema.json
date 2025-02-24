@@ -44,12 +44,10 @@
     "slug": {
       "type": "string"
     },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "girl",
-        "baby"
-      ]
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
     }
   }
 }
