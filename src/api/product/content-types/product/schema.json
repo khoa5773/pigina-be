@@ -43,6 +43,13 @@
     },
     "slug": {
       "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "girl",
+        "baby"
+      ]
     }
   }
 }

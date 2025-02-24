@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-02-24T16:30:10.628Z"
+    "x-generation-date": "2025-02-24T16:35:12.219Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -7435,6 +7435,13 @@
               "slug": {
                 "type": "string"
               },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "girl",
+                  "baby"
+                ]
+              },
               "locale": {
                 "type": "string"
               },
@@ -8116,6 +8123,13 @@
           "slug": {
             "type": "string"
           },
+          "type": {
+            "type": "string",
+            "enum": [
+              "girl",
+              "baby"
+            ]
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -8310,6 +8324,13 @@
                 },
                 "slug": {
                   "type": "string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "girl",
+                    "baby"
+                  ]
                 },
                 "createdAt": {
                   "type": "string",
