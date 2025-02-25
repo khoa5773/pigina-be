@@ -48,6 +48,13 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
+    },
+    "introduction": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }
