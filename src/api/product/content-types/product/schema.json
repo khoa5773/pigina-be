@@ -32,9 +32,6 @@
         "audios"
       ]
     },
-    "link": {
-      "type": "string"
-    },
     "badge": {
       "type": "string"
     },
