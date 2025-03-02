@@ -24,6 +24,13 @@ module.exports = ({ env }) => ({
           shouldUpdateSlug: true,
           skipUndefinedReferences: false,
         },
+        about: {
+          field: "slug",
+          references: "title",
+          slugifyWithCount: true,
+          shouldUpdateSlug: true,
+          skipUndefinedReferences: false,
+        },
       },
     },
   },
