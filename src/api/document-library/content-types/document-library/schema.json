@@ -40,6 +40,12 @@
       "relation": "oneToMany",
       "target": "api::document-library.document-library",
       "mappedBy": "parent"
+    },
+    "button": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }

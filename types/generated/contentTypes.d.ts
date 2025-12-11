@@ -618,6 +618,7 @@ export interface ApiDocumentLibraryDocumentLibrary
     draftAndPublish: false;
   };
   attributes: {
+    button: Schema.Attribute.String;
     children: Schema.Attribute.Relation<
       'oneToMany',
       'api::document-library.document-library'
@@ -632,6 +633,7 @@ export interface ApiDocumentLibraryDocumentLibrary
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    link: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
