@@ -34,7 +34,19 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  "media-prefix": {
-    enabled: true,
-  },
+  // email: {
+  //   config: {
+  //     provider: "strapi-provider-email-resend",
+  //     providerOptions: {
+  //       apiKey: env("RESEND_API_KEY"), // Required
+  //     },
+  //     settings: {
+  //       defaultFrom: "piginakorea@pigina.com.vn",
+  //       defaultReplyTo: "piginakorea@pigina.com.vn",
+  //     },
+  //   },
+  // },
+  // "media-prefix": {
+  //   enabled: false,
+  // },
 })

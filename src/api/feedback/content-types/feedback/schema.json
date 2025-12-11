@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "abouts",
+  "collectionName": "feedbacks",
   "info": {
-    "singularName": "about",
-    "pluralName": "abouts",
-    "displayName": "About",
+    "singularName": "feedback",
+    "pluralName": "feedbacks",
+    "displayName": "Feedback",
     "description": ""
   },
   "options": {
@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "title": {
+    "firstName": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -24,7 +24,7 @@
         }
       }
     },
-    "slug": {
+    "lastName": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -32,23 +32,24 @@
         }
       }
     },
-    "description": {
-      "type": "customField",
-      "options": {
-        "preset": "defaultHtml"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
+    "phoneNumber": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
-    "banner": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
+    "email": {
+      "type": "email",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "content": {
+      "type": "text",
       "pluginOptions": {
         "i18n": {
           "localized": true

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "document_libraries",
+  "info": {
+    "singularName": "document-library",
+    "pluralName": "document-libraries",
+    "displayName": "Document Library",
+    "description": "Library of documents and products"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "video_url": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "parent": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::document-library.document-library",
+      "inversedBy": "children"
+    },
+    "children": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::document-library.document-library",
+      "mappedBy": "parent"
+    }
+  }
+}
